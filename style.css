@@ -90,4 +90,15 @@ main {
 
 .section3 p {
   padding-bottom: 4rem;
+}
+
+.section4 p {
+  padding-bottom: 4rem;
+}
+.section4 ul {
+  text-align: center;
+  margin-top: 3rem;
+}
+.section4 ul li p {
+  padding-bottom: rem;
 }/*# sourceMappingURL=style.css.map */
