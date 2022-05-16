@@ -63,16 +63,21 @@
     //     }
     // }
     .footerContainer{
-        display: grid;
-        grid-auto-flow: column;
-        place-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // display: grid;
+        // grid-auto-flow: column;
+        // place-items: center;
         .unorderedList{
-            display: grid;
-            grid-auto-flow: column;
+            display: flex;
+            justify-content: center;
+            // display: grid;
+            // grid-auto-flow: column;
             // place-items: center;
         }
-        .footerLogo{
-            transform: translateY(-30px);
-        }
+        // .footerLogo{
+        //     transform: translateY(-30px);
+        // }
     }
 }

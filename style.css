@@ -260,15 +260,12 @@ footer .footerContainer .socialMediaContainer div {
   }
 
   .footerContainer {
-    display: grid;
-    grid-auto-flow: column;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .footerContainer .unorderedList {
-    display: grid;
-    grid-auto-flow: column;
-  }
-  .footerContainer .footerLogo {
-    transform: translateY(-30px);
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
