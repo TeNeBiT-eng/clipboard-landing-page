@@ -155,7 +155,10 @@ footer .footerContainer ul li {
 }
 footer .footerContainer ul li a {
   color: hsl(210deg, 10%, 33%);
-  transition: 0.4s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+footer .footerContainer ul li a::after {
+  transition: 0.1s ease-in-out;
 }
 footer .footerContainer ul li a:hover {
   -webkit-text-decoration: underline hsl(171deg, 66%, 44%);

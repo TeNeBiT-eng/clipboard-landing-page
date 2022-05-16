@@ -17,7 +17,10 @@ footer{
                 padding: 1rem;
                 a{
                     color: $txtDarkGrayishBlue;
-                    transition: .4s ease-in-out;
+                    transition: .3s ease-in-out;
+                    &::after{
+                        transition: .1s ease-in-out;
+                    }
                     &:hover{
                         text-decoration: underline hsl(171, 66%, 44%);
                         text-underline-offset: 0.4rem;
