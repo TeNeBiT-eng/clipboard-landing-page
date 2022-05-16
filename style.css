@@ -200,4 +200,48 @@ footer .footerContainer .socialMediaContainer {
 }
 footer .footerContainer .socialMediaContainer div {
   padding: 1.7rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  p {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .computer_list {
+    display: flex;
+    align-items: center;
+  }
+  .computer_list h4 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: start;
+  }
+  .computer_list p {
+    text-align: start;
+  }
+
+  .section4 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section4 ul li h4 {
+    padding-top: 2rem;
+  }
+  .section4 ul li p {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .section5 {
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+  }
 }/*# sourceMappingURL=style.css.map */

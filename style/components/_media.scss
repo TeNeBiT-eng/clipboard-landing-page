@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+    body{
+        background-image: url(/images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    p{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .computer_list{
+        display: flex;
+        align-items: center;
+        h4{
+            width: 70%;
+            margin: 0 auto;
+            text-align: start;
+        }
+        p{
+            text-align: start;
+        }
+    }
+
+    .section4{
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li{
+                h4{
+                    padding-top: 2rem;
+                }
+                p{
+                    width: 70%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .section5{
+        display: grid;
+        grid-template-columns: repeat(5 1fr);
+    }
+}
