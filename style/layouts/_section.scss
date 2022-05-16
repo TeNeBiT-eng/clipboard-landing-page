@@ -57,8 +57,14 @@
     div{
         display: grid;
         grid-auto-flow: row;
-        width: 50%;
-        margin: 0 auto;
-        
+        // width: 50%;
+        // margin: 0 auto;
+        place-items: center;
+        .company{
+            padding-bottom: 3rem;
+            img{
+                max-width: 50%;
+            }
+        }
     }
 }
