@@ -17,7 +17,7 @@
     margin-bottom: 3rem;
     transition: 4s ease-in-out;
     animation-name: logo;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
     @keyframes logo{
@@ -25,13 +25,13 @@
             transform: rotateY(0deg) rotateX(0deg);
         }
         // 25%{
-        //     transform: rotateY(0deg) rotateX(360deg);
-        // }
-        // 50%{
         //     transform: rotateY(360deg) rotateX(0deg);
         // }
-        // 75%{
+        // 50%{
         //     transform: rotateY(0deg) rotateX(360deg);
+        // }
+        // 75%{
+        //     transform: rotateY(360deg) rotateX(0deg);
         // }
         100%{
             transform: rotateY(360deg) rotateX(0deg);

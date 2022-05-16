@@ -82,8 +82,8 @@ main {
   transition: 4s ease-in-out;
   -webkit-animation-name: logo;
           animation-name: logo;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
