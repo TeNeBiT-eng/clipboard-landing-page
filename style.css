@@ -61,9 +61,15 @@ main {
 
 .deviceContainer {
   width: 100%;
+  transition: 0.4s ease-in-out;
 }
 .deviceContainer img {
   width: 100%;
+}
+
+.deviceContainer:hover {
+  transform: scale(0.9);
+  box-shadow: 0px 20px 30px -33px;
 }
 
 .headerLogo {
@@ -80,4 +86,8 @@ main {
 }
 .section2 ul li p {
   padding-bottom: rem;
+}
+
+.section3 p {
+  padding-bottom: 4rem;
 }/*# sourceMappingURL=style.css.map */

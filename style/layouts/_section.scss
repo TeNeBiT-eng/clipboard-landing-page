@@ -1,9 +1,16 @@
 .deviceContainer{
     width: 100%;
+    transition: .4s ease-in-out;
     img{
         width: 100%;
     }
 }
+.deviceContainer:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 20px 30px -33px;
+}
+    
+        
 
 .headerLogo{
     text-align: center;
@@ -22,5 +29,11 @@
                 padding-bottom: rem;
             }
         }
+    }
+}
+
+.section3{
+    p{
+        padding-bottom: 4rem;
     }
 }
