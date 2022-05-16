@@ -134,4 +134,8 @@ main {
 
 footer {
   background-color: hsl(201deg, 11%, 66%);
+}
+footer .footerContainer {
+  width: 90%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

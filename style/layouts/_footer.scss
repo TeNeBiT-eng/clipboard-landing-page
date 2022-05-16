@@ -1,4 +1,7 @@
 footer{
-    background-color: $txtGrayishBlue
-    
+    background-color: $txtGrayishBlue;
+    .footerContainer{
+        width: 90%;
+        margin: 0 auto;
+    }   
 }
