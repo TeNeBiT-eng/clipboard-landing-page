@@ -101,4 +101,11 @@ main {
 }
 .section4 ul li p {
   padding-bottom: rem;
+}
+
+.section5 div {
+  display: grid;
+  grid-auto-flow: row;
+  width: 50%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
