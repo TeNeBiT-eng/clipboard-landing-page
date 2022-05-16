@@ -114,15 +114,13 @@ main {
 }
 .section5 div .company img {
   max-width: 50%;
-  filter: grayscale(100%);
   cursor: pointer;
 }
 
 .company:hover {
   transform: scale(1.1);
 }
-
-.img:hover {
+.company:hover .img:hover {
   filter: grayscale(0%);
 }
 

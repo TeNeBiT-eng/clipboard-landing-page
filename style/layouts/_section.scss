@@ -63,9 +63,10 @@
         .company{
             padding-bottom: 3rem;
             transition: .4s ease-in-out;
+            // filter: grayscale(100%);
             img{
                 max-width: 50%;
-                filter: grayscale(100%);
+                
                 cursor: pointer;
             }
         }
@@ -73,9 +74,9 @@
 }
 .company:hover{
     transform: scale(1.1);
-}
-.img:hover{
-    filter: grayscale(0%);
+    .img:hover{
+        filter: grayscale(0%);
+    }
 }
 .vector{
     width: 80%;
