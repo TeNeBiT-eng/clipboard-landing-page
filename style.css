@@ -24,12 +24,13 @@ body {
   border: none;
   padding: 0.8rem 4rem;
   color: white;
+  font-size: 0.9rem;
 }
 
 p {
   text-align: center;
   color: hsl(201deg, 11%, 66%);
-  padding-top: 1.2rem;
+  padding-top: 0.7rem;
   line-height: 1.5;
 }
 
@@ -45,11 +46,17 @@ h3 {
   font-size: 1.4rem;
   width: 80%;
   margin: 0 auto;
+  padding-top: 7rem;
+}
+
+h4 {
+  color: hsl(210deg, 10%, 33%);
 }
 
 main {
   width: 90%;
-  margin: 6rem auto;
+  margin: auto;
+  margin-top: 6rem;
 }
 
 .deviceContainer {
@@ -62,4 +69,15 @@ main {
 .headerLogo {
   text-align: center;
   margin-bottom: 3rem;
+}
+
+.section2 p {
+  padding-bottom: 4rem;
+}
+.section2 ul {
+  text-align: center;
+  margin-top: 3rem;
+}
+.section2 ul li p {
+  padding-bottom: rem;
 }/*# sourceMappingURL=style.css.map */
