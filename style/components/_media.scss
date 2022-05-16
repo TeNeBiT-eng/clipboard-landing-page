@@ -62,4 +62,17 @@
     //         max-width: 100px;
     //     }
     // }
+    .footerContainer{
+        display: grid;
+        grid-auto-flow: column;
+        place-items: center;
+        .unorderedList{
+            display: grid;
+            grid-auto-flow: column;
+            // place-items: center;
+        }
+        .footerLogo{
+            transform: translateY(-30px);
+        }
+    }
 }

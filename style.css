@@ -258,4 +258,17 @@ footer .footerContainer .socialMediaContainer div {
     display: flex;
     justify-content: center;
   }
+
+  .footerContainer {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+  }
+  .footerContainer .unorderedList {
+    display: grid;
+    grid-auto-flow: column;
+  }
+  .footerContainer .footerLogo {
+    transform: translateY(-30px);
+  }
 }/*# sourceMappingURL=style.css.map */
