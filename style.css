@@ -242,9 +242,6 @@ footer .footerContainer .socialMediaContainer div {
 
   .section5 div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .section5 div .company {
-    width: 100%;
+    grid-template-columns: auto auto auto auto auto;
   }
 }/*# sourceMappingURL=style.css.map */
