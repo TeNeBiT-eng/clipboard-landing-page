@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clipboard Landing Page</title>
+    <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <style>
@@ -15,7 +16,7 @@
 <body>
     <main>
         <section>
-            <div>
+            <div class="headerLogo">
                 <img src="/images/logo.svg" alt="">
             </div>
             <h1>A history of everything you copy</h1>
@@ -23,10 +24,10 @@
                 copy. Instantly access your clipboard on all your devices.
               </p>
               <div>
-                  <div>
+                  <div class="btn">
                       <button>Download for iOS</button>
                     </div>
-                  <div>
+                  <div class="btn">
                       <button>Download for Mac</button>
                     </div>
               </div>
@@ -39,7 +40,7 @@
                 devices. Our Mac and iOS apps will help you organize everything.
             </p>
             <div>
-                <div>
+                <div class="deviceContainer">
                     <img src="/images/image-computer.png" alt="">
                 </div>
                 <ul>
@@ -71,7 +72,7 @@
                 Whether you’re on the go, or at your computer, you can access all your Clipboard 
                 snippets in a few simple clicks.
             </p>
-            <div>
+            <div class="deviceContainer">
                 <img src="/images/image-devices.png" alt="">
             </div>
         </section>
@@ -116,10 +117,10 @@
                 Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
                 and you’re ready to start adding to your clipboard.
             </p>
-            <div>
-                <button>Download for iOS</button>
+            <div class="btn">
+                <button style="box-shadow: ;">Download for iOS</button>
             </div>
-            <div>
+            <div class="btn">
                 <button>Download for Mac</button>
             </div>
         </section>
@@ -127,11 +128,11 @@
         <footer>
             <div><img src="/images/logo.svg" alt=""></div>
             <ul>
-                <li>FAQs</li>
-                <li>Contact Us</li>
-                <li>Privacy Policy</li>
-                <li>Press Kit</li>
-                <li>Install Guide</li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Press Kit</a></li>
+                <li><a href="#">Install Guide</a></li>
             </ul>
             <div>
                 <i class="fa-brands fa-facebook-square"></i>
