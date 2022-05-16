@@ -8,5 +8,9 @@
         padding: .8rem 4rem;
         color: white;
         font-size: .8rem;
+        transition: .3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 }

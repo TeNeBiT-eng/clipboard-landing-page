@@ -25,6 +25,10 @@ body {
   padding: 0.8rem 4rem;
   color: white;
   font-size: 0.8rem;
+  transition: 0.3s ease-in-out;
+}
+.btn button:hover {
+  transform: scale(1.1);
 }
 
 p {
@@ -75,6 +79,31 @@ main {
 .headerLogo {
   text-align: center;
   margin-bottom: 3rem;
+  transition: 4s ease-in-out;
+  -webkit-animation-name: logo;
+          animation-name: logo;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes logo {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(0deg);
+  }
+}
+@keyframes logo {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(0deg);
+  }
 }
 
 .section2 p {
@@ -113,15 +142,16 @@ main {
   transition: 0.4s ease-in-out;
 }
 .section5 div .company img {
+  filter: grayscale(100%);
   max-width: 50%;
   cursor: pointer;
+}
+.section5 div .company img:hover {
+  filter: grayscale(0%);
 }
 
 .company:hover {
   transform: scale(1.1);
-}
-.company:hover .img:hover {
-  filter: grayscale(0%);
 }
 
 .vector {

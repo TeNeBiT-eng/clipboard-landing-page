@@ -15,6 +15,28 @@
 .headerLogo{
     text-align: center;
     margin-bottom: 3rem;
+    transition: 4s ease-in-out;
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    @keyframes logo{
+        0%{
+            transform: rotateY(0deg) rotateX(0deg);
+        }
+        // 25%{
+        //     transform: rotateY(0deg) rotateX(360deg);
+        // }
+        // 50%{
+        //     transform: rotateY(360deg) rotateX(0deg);
+        // }
+        // 75%{
+        //     transform: rotateY(0deg) rotateX(360deg);
+        // }
+        100%{
+            transform: rotateY(360deg) rotateX(0deg);
+        }
+    }
 }
 
 .section2{
@@ -63,20 +85,22 @@
         .company{
             padding-bottom: 3rem;
             transition: .4s ease-in-out;
-            // filter: grayscale(100%);
             img{
+                filter: grayscale(100%);
                 max-width: 50%;
-                
                 cursor: pointer;
+                &:hover{
+                    filter: grayscale(0%);
+                }
             }
         }
     }
 }
 .company:hover{
     transform: scale(1.1);
-    .img:hover{
-        filter: grayscale(0%);
-    }
+    // .img:hover{
+    //     filter: grayscale(0%);
+    // }
 }
 .vector{
     width: 80%;
