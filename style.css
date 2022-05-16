@@ -17,11 +17,13 @@ body {
 .btn {
   text-align: center;
   margin: 1rem;
+  padding-bottom: 0.6rem;
 }
 .btn button {
   border-radius: 3rem;
   border: none;
-  padding: 1rem 4rem;
+  padding: 0.8rem 4rem;
+  color: white;
 }
 
 p {
@@ -40,7 +42,9 @@ h1 {
 h3 {
   text-align: center;
   color: hsl(210deg, 10%, 33%);
-  font-size: 1rem;
+  font-size: 1.4rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
 main {
