@@ -62,9 +62,21 @@
         place-items: center;
         .company{
             padding-bottom: 3rem;
+            transition: .4s ease-in-out;
             img{
                 max-width: 50%;
+                filter: grayscale(100%);
+                cursor: pointer;
             }
         }
     }
+}
+.company:hover{
+    transform: scale(1.1);
+}
+.img:hover{
+    filter: grayscale(0%);
+}
+.vector{
+    width: 80%;
 }

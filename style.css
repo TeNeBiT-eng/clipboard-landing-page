@@ -110,7 +110,22 @@ main {
 }
 .section5 div .company {
   padding-bottom: 3rem;
+  transition: 0.4s ease-in-out;
 }
 .section5 div .company img {
   max-width: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.company:hover {
+  transform: scale(1.1);
+}
+
+.img:hover {
+  filter: grayscale(0%);
+}
+
+.vector {
+  width: 80%;
 }/*# sourceMappingURL=style.css.map */
