@@ -24,7 +24,7 @@ body {
   border: none;
   padding: 0.8rem 4rem;
   color: white;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 p {
@@ -138,4 +138,33 @@ footer {
 footer .footerContainer {
   width: 90%;
   margin: 0 auto;
+}
+footer .footerContainer .footerLogo {
+  text-align: center;
+  padding-top: 4rem;
+}
+footer .footerContainer .footerLogo img {
+  max-width: 50px;
+}
+footer .footerContainer ul {
+  padding-top: 1rem;
+  text-align: center;
+}
+footer .footerContainer ul li {
+  padding: 1rem;
+}
+footer .footerContainer ul li a {
+  color: hsl(210deg, 10%, 33%);
+}
+footer .footerContainer .socialMediaContainer {
+  display: flex;
+  justify-content: center;
+}
+footer .footerContainer .socialMediaContainer div {
+  padding: 1.7rem;
+}
+
+a:hover {
+  -webkit-text-decoration: hsl(171deg, 66%, 44%);
+          text-decoration: hsl(171deg, 66%, 44%);
 }/*# sourceMappingURL=style.css.map */

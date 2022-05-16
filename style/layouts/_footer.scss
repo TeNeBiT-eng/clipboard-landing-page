@@ -3,5 +3,33 @@ footer{
     .footerContainer{
         width: 90%;
         margin: 0 auto;
+        .footerLogo{
+            text-align: center;
+            padding-top: 4rem;
+            img{
+                max-width: 50px;
+            }
+        }
+        ul{
+            padding-top: 1rem;
+            text-align: center;
+            li{
+                padding: 1rem;
+                a{
+                    color: $txtDarkGrayishBlue;
+                }
+            }
+        }
+        .socialMediaContainer{
+            display: flex;
+            justify-content: center;
+            // text-align: center;
+            div{
+                padding: 1.7rem;
+            }
+        }
     }   
+}
+a:hover{
+    text-decoration: hsl(171, 66%, 44%);
 }
