@@ -240,8 +240,11 @@ footer .footerContainer .socialMediaContainer div {
     margin: 0 auto;
   }
 
-  .section5 {
+  .section5 div {
     display: grid;
-    grid-template-columns: repeat(5 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .section5 div .company {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

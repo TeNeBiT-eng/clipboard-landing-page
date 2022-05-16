@@ -39,7 +39,12 @@
     }
 
     .section5{
-        display: grid;
-        grid-template-columns: repeat(5 1fr);
+        div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            .company{
+                width: 100%;
+            }
+        }
     }
 }
