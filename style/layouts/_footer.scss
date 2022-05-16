@@ -1,5 +1,6 @@
 footer{
     background-color: $txtGrayishBlue;
+    margin-top: 10rem;
     .footerContainer{
         width: 90%;
         margin: 0 auto;
@@ -14,7 +15,7 @@ footer{
             padding-top: 1rem;
             text-align: center;
             li{
-                padding: 1rem;
+                padding: 0.6rem;
                 a{
                     color: $txtDarkGrayishBlue;
                     transition: .3s ease-in-out;
@@ -41,6 +42,13 @@ footer{
             // text-align: center;
             div{
                 padding: 1.7rem;
+                a{
+                    img{
+                        &:hover{
+                            background-color: $bgStrongCyan;
+                        }
+                    }
+                }
             }
         }
     }   
