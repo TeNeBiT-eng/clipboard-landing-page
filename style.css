@@ -126,4 +126,12 @@ main {
 
 .vector {
   width: 80%;
+}
+
+.section6 p {
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: hsl(201deg, 11%, 66%);
 }/*# sourceMappingURL=style.css.map */
