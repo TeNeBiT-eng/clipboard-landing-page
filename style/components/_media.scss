@@ -40,11 +40,15 @@
 
     .section5{
         div{
-            display: grid;
+            // display: grid;
             grid-template-columns: auto auto auto auto auto;
+            place-items: center;
             .company{
-                max-width: ;
+                max-width: 300px;
             }
         }
+    }
+    .vector{
+        width: 200px;
     }
 }
