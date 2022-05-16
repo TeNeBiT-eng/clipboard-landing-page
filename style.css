@@ -243,6 +243,7 @@ footer .footerContainer .socialMediaContainer div {
   .section5 div {
     grid-template-columns: auto auto auto auto auto;
     place-items: center;
+    margin-top: 3rem;
   }
   .section5 div .company {
     max-width: 300px;
@@ -250,5 +251,10 @@ footer .footerContainer .socialMediaContainer div {
 
   .vector {
     width: 200px;
+  }
+
+  .btnContainer {
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */

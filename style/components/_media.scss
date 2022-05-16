@@ -43,6 +43,7 @@
             // display: grid;
             grid-template-columns: auto auto auto auto auto;
             place-items: center;
+            margin-top: 3rem;
             .company{
                 max-width: 300px;
             }
@@ -50,5 +51,10 @@
     }
     .vector{
         width: 200px;
+    }
+
+    .btnContainer{
+        display: flex;
+        justify-content: center;
     }
 }
