@@ -71,13 +71,18 @@
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
     .section4{
         ul{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             // display: flex;
             // align-items: center;
             // justify-content: center;
             li{
+                img{
+                    height: 2rem;
+                }
                 h4{
                     padding-top: 2rem;
                 }
@@ -86,7 +91,7 @@
                     margin: 0 auto;
                 }
                 .blacklists{
-                    margin-bottom: 0.4rem;
+                    // margin-bottom: 0.4rem;
                 }
             }
         }

@@ -272,16 +272,20 @@ footer .footerContainer .socialMediaContainer div a i:hover {
     transform: translateY(-30px);
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
+  .section4 ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section4 ul li img {
+    height: 2rem;
+  }
   .section4 ul li h4 {
     padding-top: 2rem;
   }
   .section4 ul li p {
     width: 70%;
     margin: 0 auto;
-  }
-  .section4 ul li .blacklists {
-    margin-bottom: 0.4rem;
   }
 }
 @media (min-width: 1024px) {
