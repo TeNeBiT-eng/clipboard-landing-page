@@ -21,22 +21,7 @@
         }
     }
 
-    .section4{
-        ul{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            li{
-                h4{
-                    padding-top: 2rem;
-                }
-                p{
-                    width: 70%;
-                    margin: 0 auto;
-                }
-            }
-        }
-    }
+
 
     .section5{
         div{
@@ -82,6 +67,28 @@
         }
         .footerLogo{
             transform: translateY(-30px);
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .section4{
+        ul{
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            li{
+                h4{
+                    padding-top: 2rem;
+                }
+                p{
+                    width: 70%;
+                    margin: 0 auto;
+                }
+                .blacklists{
+                    margin-bottom: 0.4rem;
+                }
+            }
         }
     }
 }

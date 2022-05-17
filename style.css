@@ -238,19 +238,6 @@ footer .footerContainer .socialMediaContainer div a i:hover {
     text-align: start;
   }
 
-  .section4 ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .section4 ul li h4 {
-    padding-top: 2rem;
-  }
-  .section4 ul li p {
-    width: 70%;
-    margin: 0 auto;
-  }
-
   .section5 div {
     grid-template-columns: auto auto auto auto auto;
     place-items: center;
@@ -283,6 +270,18 @@ footer .footerContainer .socialMediaContainer div a i:hover {
   }
   .footerContainer .footerLogo {
     transform: translateY(-30px);
+  }
+}
+@media (min-width: 900px) {
+  .section4 ul li h4 {
+    padding-top: 2rem;
+  }
+  .section4 ul li p {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .section4 ul li .blacklists {
+    margin-bottom: 0.4rem;
   }
 }
 @media (min-width: 1024px) {
