@@ -203,8 +203,14 @@ footer .footerContainer .socialMediaContainer {
 footer .footerContainer .socialMediaContainer div {
   padding: 1.7rem;
 }
-footer .footerContainer .socialMediaContainer div a img:hover {
-  background-color: hsl(171deg, 66%, 44%);
+footer .footerContainer .socialMediaContainer div a i {
+  font-size: 1.6rem;
+  color: hsl(210deg, 10%, 33%);
+  transition: 0.3s ease-in-out;
+}
+footer .footerContainer .socialMediaContainer div a i:hover {
+  color: hsl(171deg, 66%, 44%);
+  transform: scale(0.96);
 }
 
 @media (min-width: 768px) {
