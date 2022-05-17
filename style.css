@@ -83,8 +83,8 @@ main {
   transition: 4s ease-in-out;
   -webkit-animation-name: logo;
           animation-name: logo;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
@@ -142,6 +142,9 @@ main {
   padding-bottom: 3rem;
   transition: 0.4s ease-in-out;
 }
+.section5 div .company.company:hover {
+  transform: scale(1.1);
+}
 .section5 div .company img {
   filter: grayscale(100%);
   max-width: 75%;
@@ -149,10 +152,6 @@ main {
 }
 .section5 div .company img:hover {
   filter: grayscale(0%);
-}
-
-.company:hover {
-  transform: scale(1.1);
 }
 
 .vector {

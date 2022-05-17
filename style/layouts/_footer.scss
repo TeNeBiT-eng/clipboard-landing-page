@@ -20,17 +20,9 @@ footer{
                     color: $txtDarkGrayishBlue;
                     transition: .3s ease-in-out;
                     position: relative;
-                    // &::after{
-                    //     content: "";
-                    //     position: absolute;
-                    //     height: 30px;
-                    //     width: 100px;
-                    //     // transition: .1s ease-in-out;
-                    // }
                     &:hover{
                         text-decoration: underline hsl(171, 66%, 44%);
                         text-underline-offset: 0.4rem;
-                        // color: hsl(151, 66%, 44%);
                         font-size: 1.3rem;
                     }
                 }
@@ -39,7 +31,6 @@ footer{
         .socialMediaContainer{
             display: flex;
             justify-content: center;
-            // text-align: center;
             div{
                 padding: 1.7rem;
                 a{
@@ -57,6 +48,3 @@ footer{
         }
     }   
 }
-// a:hover{
-//     text-decoration: hsl(171, 66%, 44%);
-// }

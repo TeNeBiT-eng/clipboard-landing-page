@@ -25,7 +25,6 @@
 
     .section5{
         div{
-            // display: grid;
             grid-template-columns: auto auto auto auto auto;
             place-items: center;
             margin-top: 3rem;
@@ -42,25 +41,13 @@
         display: flex;
         justify-content: center;
     }
-    // .deviceContainer{
-    //     .mobile{
-    //         max-width: 100px;
-    //     }
-    // }
     .footerContainer{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        // display: grid;
-        // grid-auto-flow: column;
-        // place-items: center;
         .unorderedList{
             display: flex;
             justify-content: space-between;
-            
-            // display: grid;
-            // grid-auto-flow: column;
-            // place-items: center;
             li{
                 text-align: start;
             }
@@ -76,9 +63,6 @@
         ul{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            // display: flex;
-            // align-items: center;
-            // justify-content: center;
             li{
                 img{
                     height: 2rem;
